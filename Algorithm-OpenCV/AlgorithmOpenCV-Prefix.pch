@@ -1,0 +1,21 @@
+//
+//  AlgorithmOpenCV-Prefix.pch
+//  Algorithm-OpenCV
+//
+//  Created by Sam on 2/8/17.
+//  Copyright © 2017 Sam. All rights reserved.
+//
+
+#ifndef AlgorithmOpenCV_Prefix_pch
+#define AlgorithmOpenCV_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+
+#endif /* AlgorithmOpenCV_Prefix_pch */
